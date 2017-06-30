@@ -1,0 +1,45 @@
+/* Resets */
+body, nav, div, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Video player */
+
+body {
+    background-color: #1E1E1E;
+}
+
+video {
+    width: auto;
+    height: 100%;
+}
+
+/* Buttons */
+
+input[type=file], button {
+    font-style: inherit;
+    background-color: #13719F;
+    color: white;
+    font-weight: lighter;
+    border-style: none;
+    border-radius: 3px;
+
+    margin: 0 5px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+input[type=file]:hover, button:hover {
+    background-color: #2A7FA8;
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
