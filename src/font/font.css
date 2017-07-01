@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Exo 2 Light'),
+		local('Exo2-Light'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/2duESAtMv5vo0-oNb1BLCPesZW2xOQ-xsNqO47m55DA.eot */
+		url('Exo_2_300.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/JWvvdsUbb528VH-BDTzpW_esZW2xOQ-xsNqO47m55DA.woff */
+		url('Exo_2_300.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/TZlHHgxEfHXA7uKM1eaCjfesZW2xOQ-xsNqO47m55DA.woff2 */
+		url('Exo_2_300.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/l/font?kit=OpY9ZCloyHFqk_SeBuz-CPesZW2xOQ-xsNqO47m55DA&skey=7bf673c8cb49eaf1&v=v3#Exo2 */
+		url('Exo_2_300.svg#Exo2') format('svg'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/ngiFXK5ukde3w4E-Lmb_OvesZW2xOQ-xsNqO47m55DA.ttf */
+		url('Exo_2_300.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Exo 2'),
+		local('Exo2-Regular'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/1f-JR30cwCpEua5F7Wpkjg.eot */
+		url('Exo_2_400.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/8C2PVL2WIMUnPF90ukjrZQ.woff */
+		url('Exo_2_400.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/-A4eIjQkAwKL411pgtQ4VA.woff2 */
+		url('Exo_2_400.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/l/font?kit=UaJJNujq9sDPVrjoyxn8ng&skey=1b9a3dc5c6de9cce&v=v3#Exo2 */
+		url('Exo_2_400.svg#Exo2') format('svg'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/N9KSa305HxlY5zk6XisHxw.ttf */
+		url('Exo_2_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('Exo 2 Medium'),
+		local('Exo2-Medium'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/2YCVyscJ-jpJ5gxy1fi8ufesZW2xOQ-xsNqO47m55DA.eot */
+		url('Exo_2_500.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/SJSKlaAoPzG8E6EMHXZfevesZW2xOQ-xsNqO47m55DA.woff */
+		url('Exo_2_500.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/6b9HPGUYUr8qZeNu0Z7o-PesZW2xOQ-xsNqO47m55DA.woff2 */
+		url('Exo_2_500.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/l/font?kit=KFU8iDggpBSOJpynA2ou0PesZW2xOQ-xsNqO47m55DA&skey=adb63786cb87541c&v=v3#Exo2 */
+		url('Exo_2_500.svg#Exo2') format('svg'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/Aj85fDXQrYnqAVDyNP57H_esZW2xOQ-xsNqO47m55DA.ttf */
+		url('Exo_2_500.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('Exo 2 Semi Bold'),
+		local('Exo2-SemiBold'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/jHsN8GtMqoNkw6LdgMMDsfesZW2xOQ-xsNqO47m55DA.eot */
+		url('Exo_2_600.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/L7cKReMyy06lvTzTWfUEtfesZW2xOQ-xsNqO47m55DA.woff */
+		url('Exo_2_600.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/0BGKjb5TxeNM_vPrpoWDWPesZW2xOQ-xsNqO47m55DA.woff2 */
+		url('Exo_2_600.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/l/font?kit=SDl7TyCiLNiGrjCAzCGjLPesZW2xOQ-xsNqO47m55DA&skey=80fcc2c639fbd240&v=v3#Exo2 */
+		url('Exo_2_600.svg#Exo2') format('svg'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/hFqlepBer-IXtJK7U5poifesZW2xOQ-xsNqO47m55DA.ttf */
+		url('Exo_2_600.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Exo 2 Bold'),
+		local('Exo2-Bold'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/1hc6b3MWJWPMwBflRiHGbfesZW2xOQ-xsNqO47m55DA.eot */
+		url('Exo_2_700.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/RZBBdEhQV3g9mUXUAU9PpvesZW2xOQ-xsNqO47m55DA.woff */
+		url('Exo_2_700.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/AbMslUVu4Wq5jvNwOBLwLvesZW2xOQ-xsNqO47m55DA.woff2 */
+		url('Exo_2_700.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/l/font?kit=EPC8CFTsqwb6BMKOYJrHe_esZW2xOQ-xsNqO47m55DA&skey=82f369e367a555a6&v=v3#Exo2 */
+		url('Exo_2_700.svg#Exo2') format('svg'),
+		/* from https://fonts.gstatic.com/s/exo2/v3/F-JaJbplW75-CW3MZ1qMbvesZW2xOQ-xsNqO47m55DA.ttf */
+		url('Exo_2_700.ttf') format('truetype');
+}
