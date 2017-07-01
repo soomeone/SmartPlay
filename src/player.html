@@ -10,11 +10,13 @@
   </head>
   <body>
 
-	<div id="container" ondrop="drop(event)"> 
+	<div id="container"> 
 	
 	    <video id="player" ondblclick="fullscreen()">
 	        <source src="testvideo.mp4" type="video/mp4">
 	    </video>
+
+	    <div id="darkoverlay" hidden></div>
 
 	    <div id="alertcontainer">
 	    	<img src="img/forward.svg" id="forward" hidden>

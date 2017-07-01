@@ -57,6 +57,20 @@ video {
     position: absolute;
 }
 
+#darkoverlay {
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+    z-index: 5;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 /* Control bar and buttons */
 
 #controlbar {
@@ -73,6 +87,7 @@ video {
     border-radius: 10px;
 
     color: white;
+    z-index: 10;
 }
 
 #controlbar img {
