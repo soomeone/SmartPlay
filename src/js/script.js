@@ -80,7 +80,7 @@ var queue = [];
 function addMedia(url) {
 	// Append a new media to the queue
 	queue.push(url);
-	if (queue.length == 1 && player.playing)
+	if (queue.length == 1 && player.ended)
 		nextMedia(); // Auto start playing if the queue was empty before
 }
 
