@@ -19,24 +19,30 @@
 	    <div id="darkoverlay" hidden></div>
 
 	    <div id="alertcontainer">
-	    	<img src="img/forward.svg" id="forward" hidden>
-	    	<img src="img/backward.svg" id="backward" hidden>
+	    	<img src="" id="alert" hidden>
 	    </div>
 
-	    <div id="controlbar">
+	    <div id="controlposition">
+		    <div id="controlbar">
 
-		    <img src="img/play.svg" onclick="toggle()" id="playbutton">
-		    <div id="playertime">00:00</div>
+		    	<div class="positioning" style="width: 130px">
+				    <img class="left" src="img/play.svg" onclick="toggle()" id="playbutton">
+				    <div class="left" id="playertime">00:00</div>
+				</div>
 
-	    	<div class="sizing" id="playprogress">
-		    	<div id="progressbar">
-		    		<div id="progress"></div>
+		    	<div class="positioning" id="playprogress">
+			    	<div id="progressbar">
+			    		<div id="progress"></div>
+			    	</div>
+			    </div>
+
+
+		    	<div class="positioning" style="width: 50px; float: right;">
+		    		<img class="right" src="img/expand.svg" onclick="fullscreen()">
 		    	</div>
+		    	
 		    </div>
-
-	    	<img src="img/expand.svg" onclick="fullscreen()">
-	    	
-	    </div>
+		</div>
 
     </div>
 

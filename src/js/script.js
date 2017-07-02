@@ -29,14 +29,10 @@ function move(time) {
 
 	// Show image
 	if (time > 0) {
-		$("#forward").stop();
-		$("#forward").fadeIn(1);
-		$("#forward").fadeOut(700);
+		showAlert("forward.svg");
 	}
 	else if (time < 0) {
-		$("#backward").stop();
-		$("#backward").fadeIn(1);
-		$("#backward").fadeOut(700);
+		showAlert("backward.svg");
 	}
 }
 
@@ -55,6 +51,13 @@ function setTime(seconds) {
 		s = "0" + s;
 
 	$("#playertime").html(m + ":" + s);
+}
+
+function showAlert(url) {
+	$("#alert").stop();
+	$("#alert").attr("src", "img/" + url);
+	$("#alert").fadeIn(1);
+	$("#alert").fadeOut(700);
 }
 
 /* General functions */
@@ -160,10 +163,14 @@ window.onkeydown = function(e) {
 	else if (key == 32) 
 	// space
 	{
-		if (player.paused)
+		if (player.paused){
 			play();
-		else 
+			showAlert("play.svg"); // Show play image
+		}
+		else {
 			pause();
+			showAlert("pause.svg"); // Show pause image
+		}
 	}
 
 	else {

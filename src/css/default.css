@@ -50,9 +50,10 @@ video {
     top: 0; left: 0; bottom: 0; right: 0;
 }
 
-#alertcontainer #forward, #alertcontainer #backward {
+#alertcontainer img {
     opacity: 0.9;
-    position: absolute;
+    height: auto;
+    width: 100%;
 }
 
 #darkoverlay {
@@ -71,35 +72,36 @@ video {
 
 /* Control bar and buttons */
 
+#controlposition {
+    bottom: 50px;
+
+    width: 100%;
+    height: 20px;
+
+    position: absolute;
+}
+
 #controlbar {
-    bottom: 0;
-    margin: 20px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 
     padding: 15px 20px;
-    position: absolute;
-
-    height: 20px;
-    width: 100%;
 
     background-color: rgba(0,0,0,0.4);
     border-radius: 10px;
 
     color: white;
     z-index: 10;
+
+    display: block;
 }
 
-#controlbar img {float: left;
+#controlbar img {
     height: 100%;
 
     margin: 0 5px;
     cursor: pointer;
-}
-
-#controlbar .sizing {
-    float: left;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 #controlbar div {
@@ -109,13 +111,31 @@ video {
 #controlbar #playertime {
     width: 100px;
     text-align: center;
+
+    font-size: 1em;
+}
+
+#controlbar .positioning {
+    padding: 0;
+
+    height: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 /* Progress bar */
 #playprogress {
     display: block;
     height: 5px;
-    width: 600px;
+    width: calc(100% - 180px);
+    
+    margin-top: 7px;
 }
 
 #progressbar {
@@ -123,7 +143,6 @@ video {
     height: 5px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 30px;
-    display: block;
 }
 
 #progressbar #progress {
