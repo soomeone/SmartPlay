@@ -121,12 +121,22 @@ setInterval(function(){
 }, 500);
 
 /* Idle timer */
+var idlestate = false;
 function idle() {
+	idlestate = true;
 	$("#controlbar").fadeOut(1500);
+
+	setTimeout(function(){
+		if (idlestate) // Remove cursor after 1.5 sek
+			$("#container").css("cursor", "none");
+	}, 1500);
 }
 
 function awake() {
+	idlestate = false;
+	$("#controlbar").stop(); // Slow method, looking for something better (it lags sometimes)
 	$("#controlbar").fadeIn(200);
+	$("#container").css("cursor", "auto");
 }
 
 var idletime = 0;
