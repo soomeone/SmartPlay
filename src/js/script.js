@@ -23,6 +23,16 @@ function toggle() {
 		pause();
 }
 
+function volumeup() {
+	if (player.volume <= 0.9)
+		player.volume += 0.1;
+}
+
+function volumedown() {
+	if (player.volume >= 0.1)
+		player.volume -= 0.1;
+}
+
 function move(time) {
 	// Move in the timeline forward and backward
 	player.currentTime += time;
@@ -183,6 +193,18 @@ window.onkeydown = function(e) {
 		}
 	}
 
+	else if (key == 38) 
+	// Volume up
+	{
+		volumeup();
+	}
+
+	else if (key == 40) 
+	// Volume down
+	{
+		volumedown();
+	}
+
 	else {
 		awake(); // Do awake if any other key pressed
    		idletime = 0; // Reset idle timer because a key has been pressed
@@ -214,3 +236,13 @@ container.addEventListener('drop', function(e) {
         }
     }
 );
+
+/* Testing with electron arguments */
+/*
+if (typeof process != "undefined") {
+	var args = process.argv;
+	alert(process.argv);
+}
+else
+	alert("Args not defined");
+	*/
